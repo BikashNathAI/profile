@@ -28,7 +28,7 @@ export default function Projects() {
               <div className="flex flex-wrap gap-2 mb-4">
                 {p.tech.map(t => <span key={t} className="text-xs px-2 py-1 bg-white/5 text-gray-400 rounded">{t}</span>)}
               </div>
-              <a href={p.link} target="_blank" className="text-[#00D4FF] text-sm hover:underline">View on GitHub →</a>
+              <a href={p.link} target="_blank" className="text-[#00D4FF] text-sm hover:underline">https://github.com/BikashNathAI</a>
             </div>
           ))}
         </div>
